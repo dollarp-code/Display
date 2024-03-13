@@ -22,3 +22,11 @@ btn3.addEventListener("click", function () {
   message.style.backgroundColor = "green";
   images.src = "assets/image-3.jpeg";
 });
+
+let quaid = ["1"];
+let tech = quaid;
+let team = ["2"];
+tech.push("3");
+quaid.push("4");
+team.push(quaid);
+console.log(quaid.length, quaid, team, tech);
