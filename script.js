@@ -30,3 +30,7 @@ tech.push("3");
 quaid.push("4");
 team.push(quaid);
 console.log(quaid.length, quaid, team, tech);
+
+let x = true === [];
+let y = true === ![];
+console.log(x + y, x, y);
