@@ -66,9 +66,12 @@ console.log(
   ])
 );
 
-const a = Number(prompt("Enter value a"));
-const b = Number(prompt("Enter value b"));
-const c = Number(prompt("Enter value c"));
+function perimeter(a, b, c) {
+  a = Number(prompt("Enter value a"));
+  b = Number(prompt("Enter value b"));
+  c = Number(prompt("Enter value c"));
 
-const perimeter = a + b + c;
-console.log(`The primeter is ${perimeter}`);
+  return a + b + c;
+}
+
+console.log(`The primeter is ${perimeter()}`);
