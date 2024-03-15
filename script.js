@@ -74,4 +74,15 @@ function perimeter(a, b, c) {
   return a + b + c;
 }
 
-console.log(`The primeter is ${perimeter()}`);
+// console.log(`The primeter is ${perimeter()}`);
+
+let ar = [1, 2, 3];
+// rotateLeft(ar);
+// println(ar);
+
+function rotateLeft(ar) {
+  let first = ar.shift();
+  ar.push(first);
+}
+
+console.log(rotateLeft(ar));
